@@ -7,6 +7,15 @@
 ```
 pip install qtorch-plus
 ```
+If you use pip package install, in the code you should import qtoch-plus like below instead of `qtorch`: 
+
+```
+import torch 
+import qtorch_plus 
+from qtorch_plus.quant import posit_quantize, configurable_table_quantize, Quantizer, quantizer
+from qtorch_plus import Posit
+from qtorch_plus.optim import OptimLP
+```
 
 ### Install in developer mode: 
 ```bash
