@@ -1,8 +1,14 @@
-# QPytorch+: Extending Qpytorch for Posit format and more
+# Qtorch+: Extending Qpytorch for Posit format and more
 #### Author: minhhn2910@github, himeshi@github
 ---
-### Install 
-#### Install in developer mode: 
+## Install: You can either use pip or install in developer mode for editing
+### Install pip package: 
+
+```
+pip install qtorch-plus
+```
+
+### Install in developer mode: 
 ```bash
 git clone https://github.com/minhhn2910/QPyTorch.git
 cd QPyTorch
