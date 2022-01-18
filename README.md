@@ -48,6 +48,7 @@ When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 =
 * Most functionalities can be tested by using the notebooks in posit tutorials: ./examples/tutorial/
 * Notebook demo training Cifar10 with vanilla Posit 8 bit: `examples/tutorial/CIFAR10_Posit_Training_Example.ipynb`
 * Repository contains more sample training and inference code of Vision (include Object detection on COCO dataset) and Language models [Sample Inference and Training code](https://github.com/minhhn2910/conga2022)
+* Demo of Super Resolution Task on Posit 4 bit : [Google Colab Link](https://colab.research.google.com/drive/1fApkqdfED_YJ_k6Ut3BcscMTmTcwWN3h?usp=sharing)
 * Demo of DCGAN Cifar10 training with Posit 8 bit: [Google Colab Link](https://colab.research.google.com/drive/10kquzBx5tY8B5LYaxHab3HnR2lBwhwSl?usp=sharing)
 * Demo of DCGAN Lsun inference using Posit 6 bit and Approximate Tanh : [Google Colab Link](https://colab.research.google.com/drive/1jNjpRTXffF1cLhV22Zzhd7LdgaZ8K_aP?usp=sharing)
 * Demo of applying posit 6 bits & 8 bits to [ALBERT](https://huggingface.co/ktrapeznikov/albert-xlarge-v2-squad-v2) for Question Answering Task: [GoogleColab Demo](https://colab.research.google.com/drive/1t2bsoQb4oI-Lind_ORzroyv8X2H78cdn?usp=sharing)  
