@@ -44,6 +44,7 @@ When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 =
 #### Currently under development and update to support more number formats and schemes.
 ---
 ### Demo and tutorial: 
+* Important note: Some googlecolab demos below may have problems with permission because Google restricts the number of downloads per day (we use gdown to download zipped file from google drive). When errors happen, it is recommended that you try it on the next day. Or download it and run offline on your machine with GPU. Please contact me if you encounter any problem in running any of the demo.
 * Approximate Tanh Function with Posit is presented at `examples/tutorial/test_posit_func.ipynb`
 * Most functionalities can be tested by using the notebooks in posit tutorials: ./examples/tutorial/
 * Notebook demo training Cifar10 with vanilla Posit 8 bit: `examples/tutorial/CIFAR10_Posit_Training_Example.ipynb`
