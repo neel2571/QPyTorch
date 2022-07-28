@@ -1,4 +1,4 @@
-# Qtorch+: Extending Qpytorch for Posit format and more
+# Qtorch+: Extending Qpytorch for Posit format and beyond (table lookup, real number sets)
 #### Author: minhhn2910@github, himeshi@github
 ---
 ## Install: You can either use pip or install in developer mode for editing
@@ -55,7 +55,22 @@ When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 =
 * Demo of applying posit 6 bits & 8 bits to [ALBERT](https://huggingface.co/ktrapeznikov/albert-xlarge-v2-squad-v2) for Question Answering Task: [GoogleColab Demo](https://colab.research.google.com/drive/1t2bsoQb4oI-Lind_ORzroyv8X2H78cdn?usp=sharing)  
 * Demo of using table lookup to simulate a customized format on GPT-2 model for text generation : [Google Colab Demo Link](https://colab.research.google.com/drive/1bpuqhfAxcvStS-K7IDyhdhjZPP9-lZ94?usp=sharing)
 
-If you find this repo useful, please cite our paper(s) listed below. The below also explain the terms and usage of Posit's enhancements (exponent bias and tanh function).
+
+If you find this repo useful, please cite our paper(s) listed below. 
+
+The below shows how to use this library to train and run inference on different types of neural networks. It also provides some tips and tricks on how to train the model sucessfully using Posit-8. [Link PDF](https://www.comp.nus.edu.sg/~wongwf/papers/CONGA22.pdf)
+```
+@inproceedings{ho2022qtorch+,
+  title={Qtorch+: Next Generation Arithmetic for Pytorch Machine Learning},
+  author={Ho, Nhut-Minh and De Silva, Himeshi and Gustafson, John L and Wong, Weng-Fai},
+  booktitle={Conference on Next Generation Arithmetic},
+  pages={31--49},
+  year={2022},
+  organization={Springer}
+}
+```
+
+The below explains the terms and usage of Posit's enhancements (exponent bias and tanh function).
 ```
 @inproceedings{ho2021posit,
   title={Posit Arithmetic for the Training and Deployment of Generative Adversarial Networks},
