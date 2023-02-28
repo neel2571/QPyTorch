@@ -43,6 +43,9 @@ When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 =
 * More number formats (Table lookup, log2 system ...,  and new rounding modes) are currently supported in this versions, please see the tutorial below for how to use them.
 #### Currently under development and update to support more number formats and schemes.
 ---
+### CoNGA 2023 demo:
+* Demo of using table lookup to simulate a customized format on GPT-2 model for text generation : [Google Colab Demo Link](https://colab.research.google.com/drive/1bpuqhfAxcvStS-K7IDyhdhjZPP9-lZ94?usp=sharing)
+* Demo of using table lookup of customized format for Super resolution : [Google Colab Demo Link](https://colab.research.google.com/drive/1mT-tBy5gpn8lassGIlYwS9q1cAW9O5ot?usp=sharing)
 ### Demo and tutorial: 
 * Important note: Some googlecolab demos below may have problems with permission because Google restricts the number of downloads per day (we use gdown to download zipped file from google drive). When errors happen, it is recommended that you try it on the next day. Or download it and run offline on your machine with GPU. Please contact me if you encounter any problem in running any of the demo.
 * Approximate Tanh Function with Posit is presented at `examples/tutorial/test_posit_func.ipynb`
@@ -54,7 +57,6 @@ When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 =
 * Demo of DCGAN Cifar10 training with Posit 8 bit: [Google Colab Link](https://colab.research.google.com/drive/10kquzBx5tY8B5LYaxHab3HnR2lBwhwSl?usp=sharing)
 * Demo of DCGAN Lsun inference using Posit 6 bit and Approximate Tanh : [Google Colab Link](https://colab.research.google.com/drive/1jNjpRTXffF1cLhV22Zzhd7LdgaZ8K_aP?usp=sharing)
 * Demo of applying posit 6 bits & 8 bits to [ALBERT](https://huggingface.co/ktrapeznikov/albert-xlarge-v2-squad-v2) for Question Answering Task: [GoogleColab Demo](https://colab.research.google.com/drive/1t2bsoQb4oI-Lind_ORzroyv8X2H78cdn?usp=sharing)  
-* Demo of using table lookup to simulate a customized format on GPT-2 model for text generation : [Google Colab Demo Link](https://colab.research.google.com/drive/1bpuqhfAxcvStS-K7IDyhdhjZPP9-lZ94?usp=sharing)
 
 
 If you find this repo useful, please cite our paper(s) listed below. 
