@@ -1,3 +1,5 @@
+[![Downloads](https://static.pepy.tech/personalized-badge/qtorch-posit?period=total&units=international_system&left_color=blue&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/qtorch-posit)
+
 # Qtorch+: Extending Qpytorch for Posit format and beyond (table lookup, real number sets)
 #### Author: minhhn2910@github, himeshi@github
 ---
